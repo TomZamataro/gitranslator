@@ -1,0 +1,7 @@
+C:\Users\valeria\Desktop\Coisas do Tom\My Shit\Projects\Codes\Path Translator for Git Bash\Git Path Translator\bin\Debug\Git Path Translator.exe.config
+C:\Users\valeria\Desktop\Coisas do Tom\My Shit\Projects\Codes\Path Translator for Git Bash\Git Path Translator\bin\Debug\Git Path Translator.exe
+C:\Users\valeria\Desktop\Coisas do Tom\My Shit\Projects\Codes\Path Translator for Git Bash\Git Path Translator\bin\Debug\Git Path Translator.pdb
+C:\Users\valeria\Desktop\Coisas do Tom\My Shit\Projects\Codes\Path Translator for Git Bash\Git Path Translator\obj\Debug\Git Path Translator.csprojAssemblyReference.cache
+C:\Users\valeria\Desktop\Coisas do Tom\My Shit\Projects\Codes\Path Translator for Git Bash\Git Path Translator\obj\Debug\Git Path Translator.csproj.CoreCompileInputs.cache
+C:\Users\valeria\Desktop\Coisas do Tom\My Shit\Projects\Codes\Path Translator for Git Bash\Git Path Translator\obj\Debug\Git Path Translator.exe
+C:\Users\valeria\Desktop\Coisas do Tom\My Shit\Projects\Codes\Path Translator for Git Bash\Git Path Translator\obj\Debug\Git Path Translator.pdb
