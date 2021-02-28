@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Git_Path_Translator
+namespace GiTranslator
 {
     class Program
     {
@@ -29,9 +29,9 @@ namespace Git_Path_Translator
         {
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Title = "Path Translator for Git Bash - Maded By Tom Zamataro da Fonseca"; // just some credit to me, that no one is going to see, classic right?
+            Console.Title = "Git Bash Path Translator - by Tom Zamataro"; // just some credit to me, that no one is going to see, classic right?
             Console.Clear();
-            // set up for the APL loop
+            // set up for the API loop
             do
             {
                 repetTranslation = false;
@@ -56,7 +56,7 @@ namespace Git_Path_Translator
                             // backslash is the special case in this contex
                             if (meta == @"\") { path = path.Replace(meta, "/"); }
                             // the rest
-                            else { path = path.Replace(meta, $@"\{meta}"); }
+                            else { path = path.Replace(meta, @"\" + meta); }
                         }
                         path = path.Trim(new char[] { '\'', '"' }); // jusr making sure, ..., what? I didn't say anything
                         /*
@@ -68,9 +68,9 @@ namespace Git_Path_Translator
                         Clipboard.SetText(path); // coping it to the user's clipboard
                         Console.WriteLine
                         (
-                        $"\n   The path was translated to:" +
-                        $"\n\n   {path}" +
-                        $"\n\n   and it is alredy copied to your clipbord."
+                        "\n   The path was translated to:" +
+                        "\n\n   {0}" +
+                        "\n\n   and it is alredy copied to your clipbord.", path
                         ); // just a bit more of aestheticness, yeah, ..., go on continue throught the code
                     }
                     catch (ArgumentNullException)
@@ -104,7 +104,7 @@ namespace Git_Path_Translator
                 // did want to do another translation
                 repetTranslation = true;
                 Console.Clear();
-            } while (repetTranslation); // APL loop
+            } while (repetTranslation); // API loop
         }
     }
 }
